@@ -1,9 +1,0 @@
- - When out of food or water, health goes down by one every 5 seconds
- 
- - 60 game ticks in a second
- 
- - to create a new structure and spawn it use the StructureSpawnTile, 
- create an Array in the Structures class, and pass that array to whichever 
- tiles you want in your structure
- 
- - 
