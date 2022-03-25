@@ -26,6 +26,8 @@ An unfinished,tile-based, top-down survival game.
 - Space to interact and to use current item/build  
 - Walk over [fruit](#fruit) to pick it up  
 
+<hr width="25%">
+
 ### ⌨️ Item Hotkeys
 - P for planks
 - T for rock
@@ -35,6 +37,8 @@ An unfinished,tile-based, top-down survival game.
 - Q for [multi-tool](multi-tool)
 - F for [fruit](#fruit)
 
+<hr width="25%">
+
 ### 💻 Dev Controls
 - O to remove all zombies and spawn 1 at the cursor location
 - Left click to spawn zombies (can hold to continually spawn)
@@ -43,8 +47,12 @@ An unfinished,tile-based, top-down survival game.
 ## 🏁 Basic Gameplay
 [Harvest](#%EF%B8%8F-harvesting) resources to build and protect yourself agaisnt the zombies. Harvest [food](#fruit) and water to stay alive.
 
+<hr width="25%">
+
 ### ‼️ Important Items/Tiles
 Some items and tiles have special functions and abilities.  
+
+<hr width="25%">
 
 #### Scanner
 <p float="left">
@@ -53,6 +61,8 @@ Some items and tiles have special functions and abilities.
 </p>
 Equip the scanner with H, and hover over the mouse over a harvestable tile to see how much material is left.
 
+<hr width="25%">
+
 #### Hands
 <p float="left">
     <img alt="hands" src="https://user-images.githubusercontent.com/59327500/160029682-c102b9d5-5775-4275-8d8b-c1ba45438ebc.png" width="128">
@@ -60,12 +70,16 @@ Equip the scanner with H, and hover over the mouse over a harvestable tile to se
 </p>
 Used to open and close [doors](#door-tiles). Equip with R.
 
+<hr width="25%">
+
 #### Multi-tool
 <p float="left">
     <img alt="multi tool" src="https://user-images.githubusercontent.com/59327500/160029635-753b6b90-c03a-44d1-adbc-77c9bf691090.png" width="128">
     <img height="128" alt="mining rock" src="https://user-images.githubusercontent.com/59327500/160031997-685a901c-5d90-4f94-bd9a-07bd468b7a5b.gif">
 </p>
 A tool capable of breaking harvestable and placeable tiles. Hover over the tile to break and hold space to break.
+
+<hr width="25%">
 
 #### Door Tiles
 <p float="left">
@@ -75,6 +89,8 @@ A tool capable of breaking harvestable and placeable tiles. Hover over the tile 
 </p>
 Doors have two states: open and closed. The player and enemies can pass through an open door but are blocked by closed doors. Use the [hand](#hands) to toggle their state via space bar.
 
+<hr width="25%">
+
 #### Leaves
 <p float="left">
     <img alt="leaf" src="https://user-images.githubusercontent.com/59327500/160029242-36a37949-1c98-42d7-afa2-af74dd8dc08f.png" width="128">
@@ -83,6 +99,8 @@ Doors have two states: open and closed. The player and enemies can pass through 
     <img alt="leaf and fruit example" src="https://user-images.githubusercontent.com/59327500/160033397-f3003ff0-0f3d-4f16-961e-7aba5a4404a6.gif" height="128">
 </p>
 Leaves have no collision boxes, which means you can pass through them. Enemies and the player are obstructed from view under trees, but only for the player! Leaves will bear different kinds of [fruit](#fruit) depending on the tree.
+
+<hr width="25%">
 
 #### Fruit
 <p float="left">
@@ -97,15 +115,21 @@ Leaves have no collision boxes, which means you can pass through them. Enemies a
 </p>
 Fruit are items that spawn on [leaves](#leaves) and are able to be picked up by the player. When equipped hitting the space bar with consume fruit and replenish the [hunger bar](#-health-hunger-and-thirst-bar).
 
+<hr width="25%">
+
 #### Water
 <img alt="water" src="https://user-images.githubusercontent.com/59327500/160030036-3d619985-552b-4371-aa85-e8460b7c1ced.gif" height="128'">  
 An animated tile that replenishes your [thirst](#-health-hunger-and-thirst-bar) when you stand in it.
+
+<hr width="50%">
 
 ### 🍎 Health, Hunger, and Thirst Bar
 <img height="128" alt="bars" src="https://user-images.githubusercontent.com/59327500/160028487-259669be-2e1b-4a4c-963f-1b6889d8fb8e.PNG">
 The health bar is depleted when an ememy attacks you. It cannot currently be replenished.  
 The thirst bar depletes itself overtime and must be refilled by swimming in [water](#water).  
 The hunger bar depletes itself overtime and must be refilled by consuming [fruit](#fruit).  
+
+<hr width="50%">
 
 ### 🔨 Building
 <p float="left">
@@ -115,6 +139,8 @@ The hunger bar depletes itself overtime and must be refilled by consuming [fruit
 </p>
 
 With wood or rocks as the selected item, hold space to place tiles where your cursor is.
+
+<hr width="50%">
 
 ### ⛏️ Harvesting 
 <p float="left">
