@@ -59,6 +59,7 @@ Some items and tiles have special functions and abilities.
     <img alt="scanner" src="https://user-images.githubusercontent.com/59327500/160029780-bdfb1da3-0d9c-4864-aa33-12616ec126cf.png" width="128">
     <img alt="scanner example" src="https://user-images.githubusercontent.com/59327500/160033697-58b0ff84-e459-4feb-bdb8-f706df905ca2.gif" height="128">
 </p>
+
 Equip the scanner with H, and hover over the mouse over a harvestable tile to see how much material is left.
 
 <hr width="25%">
@@ -68,6 +69,7 @@ Equip the scanner with H, and hover over the mouse over a harvestable tile to se
     <img alt="hands" src="https://user-images.githubusercontent.com/59327500/160029682-c102b9d5-5775-4275-8d8b-c1ba45438ebc.png" width="128">
     <img alt="door example" src="https://user-images.githubusercontent.com/59327500/160032954-872f0e6d-50fe-4ad1-98e6-5000ae702e0c.gif" height="128">
 </p>
+
 Used to open and close [doors](#door-tiles). Equip with R.
 
 <hr width="25%">
@@ -77,6 +79,7 @@ Used to open and close [doors](#door-tiles). Equip with R.
     <img alt="multi tool" src="https://user-images.githubusercontent.com/59327500/160029635-753b6b90-c03a-44d1-adbc-77c9bf691090.png" width="128">
     <img height="128" alt="mining rock" src="https://user-images.githubusercontent.com/59327500/160031997-685a901c-5d90-4f94-bd9a-07bd468b7a5b.gif">
 </p>
+
 A tool capable of breaking harvestable and placeable tiles. Hover over the tile to break and hold space to break.
 
 <hr width="25%">
@@ -87,6 +90,7 @@ A tool capable of breaking harvestable and placeable tiles. Hover over the tile 
     <img alt="closed door" src="https://user-images.githubusercontent.com/59327500/160029312-b913fc47-fece-4c37-8371-52fc144d4fcf.png" width="128">
     <img alt="door example" src="https://user-images.githubusercontent.com/59327500/160032954-872f0e6d-50fe-4ad1-98e6-5000ae702e0c.gif" height="128">
 </p>
+
 Doors have two states: open and closed. The player and enemies can pass through an open door but are blocked by closed doors. Use the [hand](#hands) to toggle their state via space bar.
 
 <hr width="25%">
@@ -98,6 +102,7 @@ Doors have two states: open and closed. The player and enemies can pass through 
     <img alt="leaf" src="https://user-images.githubusercontent.com/59327500/160029242-36a37949-1c98-42d7-afa2-af74dd8dc08f.png" width="128">
     <img alt="leaf and fruit example" src="https://user-images.githubusercontent.com/59327500/160033397-f3003ff0-0f3d-4f16-961e-7aba5a4404a6.gif" height="128">
 </p>
+
 Leaves have no collision boxes, which means you can pass through them. Enemies and the player are obstructed from view under trees, but only for the player! Leaves will bear different kinds of [fruit](#fruit) depending on the tree.
 
 <hr width="25%">
@@ -113,18 +118,21 @@ Leaves have no collision boxes, which means you can pass through them. Enemies a
   <img alt="pear"   src="https://user-images.githubusercontent.com/59327500/160028842-9d246c9c-3965-438c-a2b3-467c2c61f0fc.png" width="128">
   <img alt="leaf and fruit example" src="https://user-images.githubusercontent.com/59327500/160033397-f3003ff0-0f3d-4f16-961e-7aba5a4404a6.gif" height="128">
 </p>
+
 Fruit are items that spawn on [leaves](#leaves) and are able to be picked up by the player. When equipped hitting the space bar with consume fruit and replenish the [hunger bar](#-health-hunger-and-thirst-bar).
 
 <hr width="25%">
 
 #### Water
 <img alt="water" src="https://user-images.githubusercontent.com/59327500/160030036-3d619985-552b-4371-aa85-e8460b7c1ced.gif" height="128'">  
+
 An animated tile that replenishes your [thirst](#-health-hunger-and-thirst-bar) when you stand in it.
 
 <hr width="50%">
 
 ### 🍎 Health, Hunger, and Thirst Bar
 <img height="128" alt="bars" src="https://user-images.githubusercontent.com/59327500/160028487-259669be-2e1b-4a4c-963f-1b6889d8fb8e.PNG">
+
 The health bar is depleted when an ememy attacks you. It cannot currently be replenished.  
 The thirst bar depletes itself overtime and must be refilled by swimming in [water](#water).  
 The hunger bar depletes itself overtime and must be refilled by consuming [fruit](#fruit).  
@@ -151,5 +159,6 @@ With the multi-tool equipped hover over harvestable material to start mining.
 
 ### Inventory and Crafting
 <img width="616" alt="inventory" src="https://user-images.githubusercontent.com/59327500/160033996-6ac84332-2151-4c63-b306-5d8f8493081b.PNG">
+
 The inventory system has background, uses, and harvest info for every item. This is where the lore of the game can be seen.  
 There is only one craftable item, the [door](#door-tiles). Click on the recipe to craft.
