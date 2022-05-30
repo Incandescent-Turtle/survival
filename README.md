@@ -1,5 +1,5 @@
 # 🎮 Survival
-An unfinished,tile-based, top-down survival game.  
+An unfinished, tile-based, top-down survival game.  
 (well like it <i>is</i> playable, there is just no actual <i>game</i> to play. mechanics are there to play around with tho.)   
 <a href="https://github.com/Incandescent-Turtle/survival/raw/main/survival.jar">Click here to download the runnable jar file</a>
 
